@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+    header {
+        position: relative;
+    }
+    .icon-menu-wrapper {
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        background-color: #10253b;
+        display: block;
+        
+        }
+
+    .nav-fullscreen {
+        display: none;
+        position: absolute;
+        top: 80px;
+        background-color: #10253b;
+        width: 100%;
+        left: 0px;
+    }
+    .nav-fullscreen li {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;   
+    }
+}
